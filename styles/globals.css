@@ -1,0 +1,38 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  
+  background-image:
+    radial-gradient(#09f 1px, transparent 1px),
+    radial-gradient(#09f 1px, transparent 1px);
+  background-position: 0 0, 25px 25px;
+  background-size: 50px 50px;
+}
+/* punto centro expansión 2 imagenes, la 1º en 0,0
+y la 2º en 25,25 y 50 de ancho/alto*/
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  font-size: 44px;
+  text-align: center;
+  color: green;
+}
+
+h1 {
+  color: red;
+}
+
+.hi {
+  color: navy;
+}
